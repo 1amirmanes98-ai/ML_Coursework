@@ -1,0 +1,10 @@
+# Ignore all virtual environments in any subfolder
+**/venv/
+**/env/
+
+# Ignore all Python cache folders
+**/__pycache__/
+
+# Ignore all large data files
+**/*.mat
+**/mnist_data/
