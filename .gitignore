@@ -2,9 +2,10 @@
 **/venv/
 **/env/
 
-# Ignore all Python cache folders
+# Ignore Python caches
 **/__pycache__/
 
-# Ignore all large data files
-**/*.mat
+# Ignore large data and system files
 **/mnist_data/
+**/*.mat
+.DS_Store
